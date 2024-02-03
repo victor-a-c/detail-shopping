@@ -8,7 +8,7 @@ namespace Detail_Shopping
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(ScanPage), typeof(ScanPage));
-            Routing.RegisterRoute(nameof(MoreInfoPage), typeof(MoreInfoPage));
+            Routing.RegisterRoute(nameof(ScanHistoryPage), typeof(ScanHistoryPage));
         }
     }
 }

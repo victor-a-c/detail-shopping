@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Detail_Shopping.Views.ScanHistoryPage"
+             Title="Scan History">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <ListView
+                x:Name="scanHistoryList"
+                BackgroundColor="Transparent"
+                SeparatorColor="Silver">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell 
+                            Text="{Binding name}"
+                            Detail="{Binding manufacturer}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+            <Button
+            x:Name="btnBack"
+            Text="Back"
+            SemanticProperties.Hint="Go to Main"
+            Clicked="BtnBack_OnClicked"
+            HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

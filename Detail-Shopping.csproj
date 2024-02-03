@@ -64,8 +64,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\MoreInfoPage.xaml.cs">
-	    <DependentUpon>MoreInfoPage.xaml</DependentUpon>
+	  <Compile Update="Views\ScanHistoryPage.xaml.cs">
+	    <DependentUpon>ScanHistoryPage.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\ScanPage.xaml.cs">
 	    <DependentUpon>ScanPage.xaml</DependentUpon>
@@ -73,7 +73,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\MoreInfoPage.xaml">
+	  <MauiXaml Update="Views\ScanHistoryPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\ScanPage.xaml">

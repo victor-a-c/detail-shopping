@@ -34,10 +34,17 @@
                 HorizontalOptions="Fill" />
 
             <Button
-                x:Name="ScanRedirect"
+                x:Name="btnScan"
                 Text="Scan Now" 
                 SemanticProperties.Hint="Go to Scan Page"
-                
+                Clicked="BtnScan_OnClicked"
+                HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="btnInfo"
+                Text="Scan History" 
+                SemanticProperties.Hint="Go to Scan History Page"
+                Clicked="BtnInfo_OnClicked_OnClicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>

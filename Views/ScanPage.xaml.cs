@@ -28,4 +28,9 @@ public partial class ScanPage : ContentPage
         });
 
     }
+
+    private void BtnBack_OnClicked(object? sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("..");
+    }
 }

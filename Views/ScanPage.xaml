@@ -15,6 +15,13 @@
                 IsTorchOn="False"
                 BarcodesDetected="barcodeReader_OnBarcodesDetected"
             />
+
+            <Button
+                x:Name="btnBack"
+                Text="Back"
+                SemanticProperties.Hint="Go to Main"
+                Clicked="BtnBack_OnClicked"
+                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

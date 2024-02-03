@@ -1,4 +1,5 @@
-﻿using ZXing.Net.Maui;
+﻿using Detail_Shopping.Views;
+using ZXing.Net.Maui;
 
 namespace Detail_Shopping
 {
@@ -24,6 +25,15 @@ namespace Detail_Shopping
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
 
+        private void BtnScan_OnClicked(object? sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync(nameof(ScanPage));
+        }
+
+        private void BtnInfo_OnClicked_OnClicked(object? sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync(nameof(ScanHistoryPage));
+        }
     }
 
 }
