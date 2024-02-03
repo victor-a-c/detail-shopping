@@ -32,6 +32,13 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="ScanRedirect"
+                Text="Scan Now" 
+                SemanticProperties.Hint="Go to Scan Page"
+                
+                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 

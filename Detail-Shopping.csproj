@@ -64,10 +64,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\MoreInfo.xaml">
+	  <Compile Update="Views\MoreInfoPage.xaml.cs">
+	    <DependentUpon>MoreInfoPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\ScanPage.xaml.cs">
+	    <DependentUpon>ScanPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\MoreInfoPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Scan.xaml">
+	  <MauiXaml Update="Views\ScanPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

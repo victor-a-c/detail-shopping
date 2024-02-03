@@ -42,14 +42,14 @@ build_metadata.AdditionalFiles.ManifestResourceName = Detail_Shopping.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Lenovo/Documents/Git/detail-shopping/Views/MoreInfo.xaml]
+[C:/Users/Lenovo/Documents/Git/detail-shopping/Views/MoreInfoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Detail_Shopping.Views.MoreInfo.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\MoreInfo.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\MoreInfo.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Detail_Shopping.Views.MoreInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MoreInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MoreInfoPage.xaml
 
-[C:/Users/Lenovo/Documents/Git/detail-shopping/Views/Scan.xaml]
+[C:/Users/Lenovo/Documents/Git/detail-shopping/Views/ScanPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Detail_Shopping.Views.Scan.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Scan.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Scan.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Detail_Shopping.Views.ScanPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ScanPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ScanPage.xaml

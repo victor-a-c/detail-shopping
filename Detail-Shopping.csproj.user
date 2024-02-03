@@ -12,10 +12,10 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Views\MoreInfo.xaml">
+    <MauiXaml Update="Views\MoreInfoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Scan.xaml">
+    <MauiXaml Update="Views\ScanPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
