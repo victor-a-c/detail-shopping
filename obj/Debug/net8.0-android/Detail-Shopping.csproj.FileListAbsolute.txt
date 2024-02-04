@@ -2186,3 +2186,5 @@ C:\Users\Lenovo\Documents\Git\detail-shopping\obj\Debug\net8.0-android\android\j
 C:\Users\Lenovo\Documents\Git\detail-shopping\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\Lenovo\Documents\Git\detail-shopping\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\Lenovo\Documents\Git\detail-shopping\obj\Debug\net8.0-android\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\Lenovo\Documents\Git\detail-shopping\obj\Debug\net8.0-android\resizetizer\r\drawable\barcode_scan_flaticon.png
+C:\Users\Lenovo\Documents\Git\detail-shopping\obj\Debug\net8.0-android\resizetizer\r\drawable\barcode_simple.png
