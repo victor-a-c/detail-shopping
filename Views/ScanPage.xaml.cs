@@ -9,7 +9,6 @@ public partial class ScanPage : ContentPage
 		InitializeComponent();
         barcodeReader.Options = new ZXing.Net.Maui.BarcodeReaderOptions
         {
-
             Formats = BarcodeFormats.All,
 
             //Limits to a given format --> Formats = ZXing.Net.Maui.BarcodeFormat.Ean13,
@@ -22,9 +21,20 @@ public partial class ScanPage : ContentPage
 
     private void barcodeReader_OnBarcodesDetected(object? sender, BarcodeDetectionEventArgs e)
     {
-        Dispatcher.Dispatch(() =>
+        var first = e.Results?.FirstOrDefault();
+
+        if (first == null)
         {
-            //barcodeResult.Text = $"{e.Results[0].Value} {e.Results[0].Format}";
+            return;
+        }
+
+        Dispatcher.DispatchAsync(async() =>
+        {
+            if (first.Format == BarcodeFormat.QrCode)
+            {
+                await DisplayAlert("QR Code detected", "QR codes are not supported", "OK");
+            }
+            await DisplayAlert("Barcode detected", first.Value, "OK");
         });
 
     }

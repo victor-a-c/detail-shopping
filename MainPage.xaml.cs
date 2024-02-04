@@ -30,7 +30,7 @@ namespace Detail_Shopping
             Shell.Current.GoToAsync(nameof(ScanPage));
         }
 
-        private void BtnInfo_OnClicked_OnClicked(object? sender, EventArgs e)
+        private void BtnHistory_OnClicked(object? sender, EventArgs e)
         {
             Shell.Current.GoToAsync(nameof(ScanHistoryPage));
         }

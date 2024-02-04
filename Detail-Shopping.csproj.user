@@ -3,9 +3,9 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 5 - phone 2 (Android 14.0 - API 34)</ActiveDebugProfile>
+    <ActiveDebugProfile>Pixel 5 - Phone 3 (Android 14.0 - API 34)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <DefaultDevice>pixel_5_-_phone_2</DefaultDevice>
+    <DefaultDevice>pixel_5_-_phone_3</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
     <RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>

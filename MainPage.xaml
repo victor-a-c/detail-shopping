@@ -41,10 +41,10 @@
                 HorizontalOptions="Fill" />
 
             <Button
-                x:Name="btnInfo"
+                x:Name="btnHistory"
                 Text="Scan History" 
                 SemanticProperties.Hint="Go to Scan History Page"
-                Clicked="BtnInfo_OnClicked_OnClicked"
+                Clicked="BtnHistory_OnClicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
