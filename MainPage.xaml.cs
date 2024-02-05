@@ -10,7 +10,6 @@ namespace Detail_Shopping
         public MainPage()
         {
             InitializeComponent();
-            
         }
 
         private void BtnScan_OnClicked(object? sender, EventArgs e)
@@ -21,6 +20,11 @@ namespace Detail_Shopping
         private void BtnHistory_OnClicked(object? sender, EventArgs e)
         {
             Shell.Current.GoToAsync(nameof(ScanHistoryPage));
+        }
+
+        private void BtnAbout_OnClicked(object? sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync(nameof(AboutPage));
         }
     }
 

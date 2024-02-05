@@ -5,11 +5,12 @@
 
 
     <ScrollView>
+        
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-
-            <Image
+            
+                <Image
                 Source="barcode_simple.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
@@ -39,8 +40,18 @@
                 SemanticProperties.Hint="Go to Scan History Page"
                 Clicked="BtnHistory_OnClicked"
                 HorizontalOptions="Fill" />
+
+            <Frame 
+                BorderColor="Transparent"
+                Margin="10"/>
+
+            <Button
+                x:Name="btnAbout"
+                Text="About this App" 
+                SemanticProperties.Hint="Go to About Page"
+                Clicked="BtnAbout_OnClicked"/>
+            
+
         </VerticalStackLayout>
     </ScrollView>
-
-
 </ContentPage>
