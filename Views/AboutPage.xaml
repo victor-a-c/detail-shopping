@@ -22,19 +22,13 @@
                 SemanticProperties.HeadingLevel="Level8"
                 SemanticProperties.Description="The app does not log user information or has access to Contacts, Location, Storage, or any other internal file.">
             </Label>
-            
-            <Frame 
-                BorderColor="Transparent"
-                Margin="20"/>
-            <Frame 
-                BorderColor="Transparent"
-                Margin="20"/>
 
             <Button
                 x:Name="btnBack"
                 Text="Back" 
                 SemanticProperties.Hint="Go to Home Page"
-                Clicked="btnBack_OnClicked"/>
+                Clicked="btnBack_OnClicked"
+                Margin="0,50"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -47,9 +47,10 @@
 
             <Button
                 x:Name="btnAbout"
-                Text="About this App" 
+                Text="About this App"
                 SemanticProperties.Hint="Go to About Page"
-                Clicked="BtnAbout_OnClicked"/>
+                Clicked="BtnAbout_OnClicked"
+                />
             
 
         </VerticalStackLayout>

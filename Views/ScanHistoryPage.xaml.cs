@@ -7,8 +7,8 @@ public partial class ScanHistoryPage : ContentPage
 		InitializeComponent();
         List<ScannedItem> scans = new List<ScannedItem>()
         {
-            new ScannedItem { name="Coca-Cola Coke Zero", manufacturer="Coca-Cola"},
-            new ScannedItem { name="test2", manufacturer="test2 manufacturer"}
+            new ScannedItem { name="Test1_product_name", manufacturer="test1_manufacturer"},
+            new ScannedItem { name="Test2_product_name", manufacturer="test2_manufacturer"}
         };
 
         scanHistoryList.ItemsSource = scans;

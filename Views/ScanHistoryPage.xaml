@@ -16,7 +16,7 @@
                     <DataTemplate>
                         <TextCell 
                             Text="{Binding name}"
-                            Detail="{Binding manufacturer}"></TextCell>
+                            Detail="{Binding manufacturer}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
 

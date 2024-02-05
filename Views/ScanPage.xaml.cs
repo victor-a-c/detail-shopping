@@ -34,9 +34,9 @@ public partial class ScanPage : ContentPage
             {
                 await DisplayAlert("QR Code detected", "QR codes are not supported", "OK");
             }
+            //UPC search logic
             await DisplayAlert("Barcode detected", first.Value, "OK");
         });
-
     }
 
     private void BtnBack_OnClicked(object? sender, EventArgs e)
