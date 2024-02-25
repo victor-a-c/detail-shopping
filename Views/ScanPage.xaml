@@ -4,6 +4,20 @@
              xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls"
              x:Class="Detail_Shopping.Views.ScanPage"
              Title="Scan Page">
+
+    <Shell.TitleView>
+        <HorizontalStackLayout VerticalOptions="Fill">
+            <Label
+                Text="Scan"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                VerticalOptions="Center"
+                HeightRequest="50"
+                FontSize="Medium" 
+                FontAttributes="Bold"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
+
     <ScrollView>
         <VerticalStackLayout
             Padding="20,0"
@@ -17,11 +31,11 @@
                 Margin=" 0, 80"/>
             
             
-            <Button
+            <!--<Button
                 x:Name="btnBack"
                 Text="Back"
                 SemanticProperties.Hint="Go to Main"
-                Clicked="BtnBack_OnClicked"/>
+                Clicked="BtnBack_OnClicked"/>-->
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

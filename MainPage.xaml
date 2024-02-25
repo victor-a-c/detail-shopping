@@ -3,6 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Detail_Shopping.MainPage">
 
+    <Shell.TitleView>
+        <HorizontalStackLayout VerticalOptions="Fill">
+            <Label
+                Text="Home"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                VerticalOptions="Center"
+                HeightRequest="50"
+                FontSize="Medium" 
+                FontAttributes="Bold"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
 
     <ScrollView>
         

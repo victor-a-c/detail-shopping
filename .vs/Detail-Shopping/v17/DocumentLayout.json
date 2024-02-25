@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\views\\scanpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:views\\scanpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\views\\scanpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:views\\scanpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\views\\moreinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:views\\moreinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\views\\scanhistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:views\\scanhistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\views\\scanhistorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:views\\scanhistorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\views\\moreinfopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:views\\moreinfopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:views\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|c:\\users\\lenovo\\documents\\git\\detail-shopping\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F04A37-1D71-4959-98FE-4C3F437E6548}|Detail-Shopping.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T02:37:01.439Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T01:41:42.451Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwBAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-03T01:41:42.461Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScanPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\ScanPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ScanPage.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\ScanPage.xaml",
+              "RelativeToolTip": "Views\\ScanPage.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-03T02:56:16.423Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScanPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\ScanPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ScanPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\ScanPage.xaml.cs",
+              "RelativeToolTip": "Views\\ScanPage.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T02:56:01.613Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScanHistoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\ScanHistoryPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ScanHistoryPage.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\ScanHistoryPage.xaml",
+              "RelativeToolTip": "Views\\ScanHistoryPage.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-03T04:35:55.475Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScanHistoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\ScanHistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ScanHistoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\ScanHistoryPage.xaml.cs",
+              "RelativeToolTip": "Views\\ScanHistoryPage.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T04:39:48.077Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoreInfoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\MoreInfoPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MoreInfoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\MoreInfoPage.xaml.cs",
+              "RelativeToolTip": "Views\\MoreInfoPage.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwB4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-11T20:14:26.707Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-25T18:42:53.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\AboutPage.xaml",
+              "RelativeToolTip": "Views\\AboutPage.xaml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-25T02:05:19.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoreInfoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\MoreInfoPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MoreInfoPage.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Git\\detail-shopping\\Views\\MoreInfoPage.xaml",
+              "RelativeToolTip": "Views\\MoreInfoPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-11T20:24:25.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

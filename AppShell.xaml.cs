@@ -10,6 +10,7 @@ namespace Detail_Shopping
             Routing.RegisterRoute(nameof(ScanPage), typeof(ScanPage));
             Routing.RegisterRoute(nameof(ScanHistoryPage), typeof(ScanHistoryPage));
             Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
+            Routing.RegisterRoute(nameof(MoreInfoPage), typeof(MoreInfoPage));
         }
     }
 }

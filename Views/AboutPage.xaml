@@ -3,7 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Detail_Shopping.Views.AboutPage"
              Title="About this App">
-    
+
+    <Shell.TitleView>
+        <HorizontalStackLayout VerticalOptions="Fill">
+            <Label
+                Text="About"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                VerticalOptions="Center"
+                HeightRequest="50"
+                FontSize="Medium" 
+                FontAttributes="Bold"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
+
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -23,12 +36,12 @@
                 SemanticProperties.Description="The app does not log user information or has access to Contacts, Location, Storage, or any other internal file.">
             </Label>
 
-            <Button
+            <!--<Button
                 x:Name="btnBack"
                 Text="Back" 
                 SemanticProperties.Hint="Go to Home Page"
                 Clicked="btnBack_OnClicked"
-                Margin="0,50"/>
+                Margin="0,50"/>-->
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

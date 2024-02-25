@@ -1,3 +1,4 @@
+using Detail_Shopping.Models;
 namespace Detail_Shopping.Views;
 
 public partial class ScanHistoryPage : ContentPage
@@ -5,25 +6,31 @@ public partial class ScanHistoryPage : ContentPage
 	public ScanHistoryPage()
 	{
 		InitializeComponent();
-        List<ScannedItem> scans = new List<ScannedItem>()
-        {
-            new ScannedItem { name="Test1_product_name", manufacturer="test1_manufacturer"},
-            new ScannedItem { name="Test2_product_name", manufacturer="test2_manufacturer"}
-        };
+        List<Item> items = ItemRepository.GetAllItems();
 
-        scanHistoryList.ItemsSource = scans;
+        scanHistoryList.ItemsSource = items;
 	}
 
-    private void BtnBack_OnClicked(object? sender, EventArgs e)
+    private void btnBack_OnClicked(object? sender, EventArgs e)
     {
         Shell.Current.GoToAsync("..");
     }
 
-    public class ScannedItem()
+    private async void scanHistoryList_OnItemSelected(object? sender, SelectedItemChangedEventArgs e)
     {
-        public string name { get; set; }
-        public string manufacturer { get; set;}
-        //country of origin
-        //public string product_origin { get; set;}
+        // avoid the item selection to be called twice
+        if (scanHistoryList.SelectedItem != null)
+        {
+            //go to More Info Page
+            await Shell.Current.GoToAsync($"{nameof(MoreInfoPage)}?Id={((Item)scanHistoryList.SelectedItem).Id}");
+            //details Alert
+            //DisplayAlert("Test", "test", "OK");
+        }
+    }
+
+    private void scanHistoryList_OnItemTapped(object? sender, ItemTappedEventArgs e)
+    {
+        //deselect
+        scanHistoryList.SelectedItem = null;
     }
 }

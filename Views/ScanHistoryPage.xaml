@@ -3,31 +3,45 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Detail_Shopping.Views.ScanHistoryPage"
              Title="Scan History">
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
+    <Shell.TitleView>
+        <HorizontalStackLayout VerticalOptions="Fill">
+            <Label
+                Text="Scan History"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                VerticalOptions="Center"
+                HeightRequest="50"
+                FontSize="Medium"
+                FontAttributes="Bold"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
 
-            <ListView
-                x:Name="scanHistoryList"
-                BackgroundColor="Transparent"
-                SeparatorColor="Silver">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell 
-                            Text="{Binding name}"
-                            Detail="{Binding manufacturer}"/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25"
+        Margin="10">
 
-            </ListView>
+        <ListView
+            x:Name="scanHistoryList"
+            BackgroundColor="Transparent"
+            SeparatorColor="Silver"
+            ItemSelected="scanHistoryList_OnItemSelected"
+            ItemTapped="scanHistoryList_OnItemTapped">
 
-            <Button
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell 
+                        Text="{Binding Name}"
+                        Detail="{Binding Manufacturer}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <!--<Button
             x:Name="btnBack"
             Text="Back"
             SemanticProperties.Hint="Go to Main"
-            Clicked="BtnBack_OnClicked"
-            HorizontalOptions="Fill" />
-        </VerticalStackLayout>
-    </ScrollView>
+            Clicked="btnBack_OnClicked"
+            HorizontalOptions="Fill"/>-->
+    </VerticalStackLayout>
 </ContentPage>
